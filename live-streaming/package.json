@@ -6,15 +6,21 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "crypto-browserify": "^3.12.0",
     "fluent-ffmpeg": "^2.1.2",
     "flv.js": "^1.6.2",
     "mediaserver": "^0.1.1",
+    "net": "^1.0.2",
     "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-webcam": "^7.1.1",
     "rtmp-client": "^1.5.3",
     "rtmp-streamer": "^1.0.2",
+    "stream-browserify": "^3.0.0",
+    "url": "^0.11.1",
+    "v8": "^0.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
